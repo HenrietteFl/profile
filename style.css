@@ -1,0 +1,105 @@
+body {
+  background-color: #A5D0A8;
+  font-family: 'Lato', sans-serif;
+  color: #6A0136;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3 {
+  color: #1D7874;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: #B7990D;
+}
+a:hover {
+  color: #508CA4;
+}
+
+.container {
+  /*width: 500px; */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+#img_circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.size {
+  width: 80px;
+  height: auto;
+  padding: 10px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-red:hover{
+  background-color: #C61414;
+  color: white;
+}
+
+.inline {
+  padding-left: 0;
+}
+.inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.inline li i{
+  font-size: 25px;
+}
+
+#books {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#Saira {
+font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
