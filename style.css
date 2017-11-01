@@ -15,6 +15,13 @@ h3 {
   line-height: 1.4;
 }
 
+h3 {
+  color: #DE3C4B;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
 a {
   text-decoration: none;
   color: #B7990D;
@@ -83,6 +90,51 @@ a:hover {
 
 #Saira {
 font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+#content{
+  margin-left: 120px;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+/* Responsive layout behavior */
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
 }
 
 @media (max-width: 960px) {
